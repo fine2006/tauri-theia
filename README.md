@@ -1,7 +1,8 @@
 # tauri-theia
 A flavour of Theia IDE on Tauri
 ---
-Installation instructions:
+## Installation instructions:
+
 ```shell
 git clone https://github.com/fine2006/tauri-theia
 cd tauri-theia/
