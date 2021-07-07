@@ -1,0 +1,90 @@
+yarn run v1.22.10
+$ /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/.bin/theia start --hostname 127.0.0.1 --port 3000
+Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+root INFO Configuration directory URI: 'file:///home/pathak/.theia'
+root INFO Theia app listening on http://127.0.0.1:3000.
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-css
+root INFO Resolved "vscode-builtin-css" to a VS Code extension "css@1.50.0" with engines: { vscode: '0.10.x' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-html
+root INFO Resolved "vscode-builtin-html" to a VS Code extension "html@1.50.0" with engines: { vscode: '0.10.x' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-javascript
+root INFO Resolved "vscode-builtin-javascript" to a VS Code extension "javascript@1.50.0" with engines: { vscode: '0.10.x' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-json
+root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.50.0" with engines: { vscode: '0.10.x' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-markdown
+root INFO Resolved "vscode-builtin-markdown" to a VS Code extension "markdown@1.50.0" with engines: { vscode: '^1.20.0' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-npm
+root INFO Resolved "vscode-builtin-npm" to a VS Code extension "npm@1.50.0" with engines: { vscode: '0.10.x' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-scss
+root INFO Resolved "vscode-builtin-scss" to a VS Code extension "scss@1.50.0" with engines: { vscode: '*' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-typescript
+root INFO Resolved "vscode-builtin-typescript" to a VS Code extension "typescript@1.50.0" with engines: { vscode: '*' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/plugins/vscode-builtin-typescript-language-features
+root INFO Resolved "vscode-builtin-typescript-language-features" to a VS Code extension "typescript-language-features@1.45.1" with engines: { vscode: '^1.30.0' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/extensions/redhat.java-0.78.0
+root INFO Resolved "redhat.java-0.78.0" to a VS Code extension "java@0.78.0" with engines: { vscode: '^1.50.0' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /home/pathak/.theia/extensions/tabnine.tabnine-vscode-3.4.12
+root INFO Resolved "tabnine.tabnine-vscode-3.4.12" to a VS Code extension "tabnine-vscode@3.4.12" with engines: { vscode: '^1.50.0', node: '>=12.0.10' }
+root INFO Deploying backend plugin "css@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-css/extension"
+root INFO Deploying backend plugin "java@0.78.0" from "/home/pathak/.theia/extensions/redhat.java-0.78.0/extension/dist/extension"
+root INFO Deploying backend plugin "tabnine-vscode@3.4.12" from "/home/pathak/.theia/extensions/tabnine.tabnine-vscode-3.4.12/extension/out/extension"
+root INFO Deploying backend plugin "html@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-html/extension"
+root INFO Deploying backend plugin "javascript@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-javascript/extension"
+root INFO Deploying backend plugin "json@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-json/extension"
+root INFO Deploying backend plugin "markdown@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-markdown/extension"
+root INFO Deploying backend plugin "npm@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-npm/extension/dist/npmMain"
+root INFO Deploying backend plugin "scss@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-scss/extension"
+root INFO Deploying backend plugin "typescript@1.50.0" from "/home/pathak/.theia/plugins/vscode-builtin-typescript/extension"
+root INFO Deploying backend plugin "typescript-language-features@1.45.1" from "/home/pathak/.theia/plugins/vscode-builtin-typescript-language-features/extension/dist/extension"
+root INFO Deploy plugins list took: 1569.0 ms
+root INFO Using Git [2.32.0] from the PATH. (/usr/bin/git)
+root INFO Detected keyboard layout from browser API: US (PC)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116) starting instance
+root INFO Changed application state from 'init' to 'started_contributions'.
+root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+root INFO >>> Restoring the layout state...
+root INFO <<< Nothing to restore.
+root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.32.0'.
+root INFO Changed application state from 'initialized_layout' to 'ready'.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa] Sync of 11 plugins took: 7399.3 ms
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.css]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][redhat.java]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][tabnine.tabnine-vscode]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.html]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.javascript]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.json]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.markdown]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.npm]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.scss]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.typescript]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.typescript-language-features]: Loaded contributions.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa] Load contributions of 11 plugins took: 188.5 ms
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): PluginManagerExtImpl/init()
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(css@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(java@0.78.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(tabnine-vscode@3.4.12 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(html@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(javascript@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(json@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(markdown@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(npm@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(scss@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(typescript@1.50.0 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): initializing(typescript-language-features@1.45.1 with /home/pathak/suckless/vscodetauri/tauri-theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): PluginManagerExtImpl/loadPlugin(/home/pathak/.theia/extensions/tabnine.tabnine-vscode-3.4.12/extension/out/extension)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): PluginManagerExtImpl/loadPlugin(/home/pathak/.theia/plugins/vscode-builtin-typescript-language-features/extension/dist/extension)
+root INFO [hosted-plugin: 1217116] PLUGIN_HOST(1217116): PluginManagerExtImpl/loadPlugin(/home/pathak/.theia/plugins/vscode-builtin-npm/extension/dist/npmMain)
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.css]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][redhat.java]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][tabnine.tabnine-vscode]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.html]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.javascript]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.json]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.markdown]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.npm]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.scss]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.typescript]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa][vscode.typescript-language-features]: Started plugin.
+root INFO [6771b8da-9edb-4226-80a6-7ab0b9206caa] Start of 11 plugins took: 1335.3 ms
